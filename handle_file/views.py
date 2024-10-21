@@ -57,7 +57,7 @@ class FileUploadAPIView(APIView):
         subject=subject,
         body=email_html_content,
         from_email=settings.EMAIL_HOST_USER,
-        to=['aadikumar496@gmail.com'],  # tech@themedius.ai
+        to=['tech@themedius.ai'],
     )
 
         email.content_subtype = "html"  
